@@ -15,3 +15,42 @@ header img{
     height: 75px;
     width: 50px;
 }
+
+ul{
+    list-style: none;
+    font-size: 0;/*Truco: para utilizar inline-block*/
+}
+
+li{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+}
+
+ul ul{
+    position: absolute; /*Permite abrir el menu y que sus elementos superpongan cualquier otro elemento*/
+    display: none;
+    background-color: black;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+}
+
+ul li:hover{
+    background-color: aqua;
+}
