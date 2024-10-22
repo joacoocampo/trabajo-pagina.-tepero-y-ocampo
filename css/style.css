@@ -14,42 +14,9 @@ header{
     width: 100%;
 }
 
-header img{
+header div img{
     height: 75px;
     width: 50px;
     justify-content: center;
 }
 
-ul{
-    list-style: none;
-    font-size: 0;/*Truco: para utilizar inline-block*/
-}
-
-li{
-    display: inline-block;
-    width: 20%;
-    position: relative;
-    font-size: 14px;
-}
-
-
-ul ul li{
-    display: block;
-}
-
-ul li:hover ul{
-    display: block;
-}
-
-li a{
-    color: white;
-    text-decoration: none;
-}
-
-nav{
-    background-color: #808000;
-}
-
-ul li:hover{
-    background-color: #8FBC8B;
-}
