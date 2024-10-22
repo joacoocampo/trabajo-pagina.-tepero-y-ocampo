@@ -5,5 +5,13 @@
 
 header{
     background-color: #808000;
-    
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+}
+
+header img{
+    height: 75px;
+    width: 50px;
 }
