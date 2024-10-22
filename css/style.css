@@ -20,3 +20,8 @@ header div img{
     justify-content: center;
 }
 
+footer{
+    background-color: #556B2F;
+    display: flex;
+    justify-content: space-between;
+}
