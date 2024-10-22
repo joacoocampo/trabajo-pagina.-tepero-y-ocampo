@@ -48,9 +48,9 @@ li a{
 }
 
 nav{
-    background-color: black;
+    background-color: #808000;
 }
 
 ul li:hover{
-    background-color: aqua;
+    background-color: #8FBC8B;
 }
