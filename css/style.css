@@ -23,7 +23,7 @@ header div img{
 }
 
 footer{
-    width: 100%;
+    width: max-content;
     background-color: #556B2F;
     background-image: linear-gradient(#6B8E23, #556B2F );
     display: flex;
