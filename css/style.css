@@ -5,7 +5,8 @@
 
 body{
     background-color: #6B8E23;
-    
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #808000;
@@ -27,6 +28,8 @@ footer{
     background-color: #556B2F;
     background-image: linear-gradient(#6B8E23, #556B2F, #556B2F );
     display: flex;
+    margin: 0;
+    padding: 0;
     justify-content: space-between;
 }
 footer img{
