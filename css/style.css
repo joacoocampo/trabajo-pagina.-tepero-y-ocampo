@@ -5,6 +5,7 @@
 
 body{
     background-color: #6B8E23;
+    background-image: linear-gradient(#6B8E23 , #6b8e23, #556B2F);
 }
 header{
     background-color: #808000;
